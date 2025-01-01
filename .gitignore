@@ -1,0 +1,7 @@
+.venv
+.vscode/launch.json
+__pycache__
+datasets
+*.sqlite
+fine_tuned_model
+finetune_data.jsonl

@@ -1,0 +1,48 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Evals",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/evals.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "FASTMAIL_API_TOKEN": null,     // Get this from your Fastmail settings
+                "OPENAI_API_KEY": null          // Get this from your OpenAI settings
+            }
+        },
+        {
+            "name": "Fastmail Watcher",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/fastmail_watcher.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "FASTMAIL_API_TOKEN": null,     // Get this from your Fastmail settings
+                "OPENAI_API_KEY": null          // Get this from your OpenAI settings
+            }
+        },
+        {
+            "name": "Dataset Builder",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/dataset_builder.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "FASTMAIL_API_TOKEN": null     // Get this from your Fastmail settings
+            }
+        },
+        {
+            "name": "DistilBERT Fine-tuning",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/providers/distilbert_provider.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

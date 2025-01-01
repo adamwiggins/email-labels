@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+html5lib
+openai
+torch
+transformers
+pandas
